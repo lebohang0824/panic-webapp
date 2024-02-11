@@ -1,0 +1,46 @@
+.homeContainer {
+    padding: 10px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeHeader {
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+.homeHeader h1,
+p {
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.homeHeader h1 {
+    font-size: 52px;
+    font-weight: 800;
+    color: var(--secondary);
+}
+
+.homeHeader p {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: var(--primary-lite);
+}
+
+.coodinatesContainer {
+    display: grid;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr;
+}
+.coodinatesContainer label {
+    padding: 20px;
+    display: block;
+    font-size: 20px;
+    background-color: #ffffff;
+}
+.coodinatesContainer label:first-child {
+    margin-right: 10px;
+}

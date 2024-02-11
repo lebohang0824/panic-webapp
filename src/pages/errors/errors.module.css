@@ -1,0 +1,22 @@
+.errorContainer {
+    padding: 10px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+p {
+    font-size: 18px;
+}
+
+span {
+    color: var(--primary-lite);
+    font-weight: 500;
+    font-size: 14px;
+}

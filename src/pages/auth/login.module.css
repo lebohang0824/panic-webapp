@@ -1,0 +1,38 @@
+.loginContainer {
+    padding: 10px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginHeaer {
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+.loginHeaer h1,
+p {
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.loginHeaer h1 {
+    font-size: 52px;
+    font-weight: 800;
+    color: var(--secondary);
+}
+
+.loginHeaer p {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: var(--primary-lite);
+}
+
+label {
+    color: var(--primary-lite);
+}
+
+.inputContainer {
+    margin-bottom: 10px;
+}
